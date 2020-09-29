@@ -1,5 +1,5 @@
 baseURL = "https://www.percode.jp"
-title = "PerCode Website"
+title = "PerCode"
 
 theme = "fuji"
 hasCJKLanguage = true
@@ -10,7 +10,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 ## Change this two to switch between different language
 languageCode = "en"  # For RSS, view https://www.rssboard.org/rss-language-codes
-defaultContentLanguage = "ja"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl
+defaultContentLanguage = "en"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl
 
 summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
 paginate = 10
@@ -31,8 +31,8 @@ paginate = 10
   post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
-  author = "ystn" # You can also set author in post front matter individually
-  subTitle = ""
+  author = "PerCode" # You can also set author in post front matter individually
+  subTitle = "This site is a portfolio site for self-introduction."
 
   # Use CloudFlare Workers to accelerate the Google Analytics
   # If you are using this please comment the googleAnalytics above
@@ -54,7 +54,7 @@ paginate = 10
 
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
-  description = "PerCode is an infrastructure engineer's website that expresses the role of percussion in code."
+  description = "PerCode is an infrastructure engineers website that expresses the role of percussion in code."
   images = ["img/og.png"] # This will use the image called og.png in static/img folder
 
   # Posts shown in homepage
@@ -128,13 +128,13 @@ paginate = 10
 
   [[menu.link]]
     name = "GitHub"
-    url = "https://github.com/amzrk2"
+    url = "https://github.com/yastani"
     weight = 1
   [[menu.link]]
     name = "Twitter"
-    url = "https://twitter.com/amzrk2"
+    url = "https://twitter.com/ystn_percode"
     weight = 2
   [[menu.link]]
-    name = "bilibili"
-    url = "https://space.bilibili.com/19767474"
+    name = "Qiita"
+    url = "https://qiita.com/yastani"
     weight = 3
